@@ -1,2 +1,2 @@
-# EbayPOMSeleniumFW-
+# EbayPOMSeleniumFW
 Ebay POM Framework
