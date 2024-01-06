@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 
 public class Ebay_Home_Page extends AbstractBaseTest {
 
-    @Test (groups = {"p0","p1"})
+    @Test (groups = "p1")
     public void empty_URL_Check() throws InterruptedException {
 
         String currentUrl = getApp().getFlow().getCurrentPageUrl();
