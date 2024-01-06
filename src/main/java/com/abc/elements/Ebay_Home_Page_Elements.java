@@ -11,9 +11,6 @@ public class Ebay_Home_Page_Elements {
     ChromeDriver driver;
     @FindBy(id="gh-btn") public WebElement searchBtn;
 
-   /* public Ebay_Home_Page(ChromeDriver driver) {
-    }*/
-
     public Ebay_Home_Page_Elements(ChromeDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
