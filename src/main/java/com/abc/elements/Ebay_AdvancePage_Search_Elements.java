@@ -24,12 +24,9 @@ public class Ebay_AdvancePage_Search_Elements {
     @FindBy(id = "s0-1-17-4[0]-7[3]-_sacat")
     public List<WebElement> allCatSelectBoxOptions;
 
- /*   public Ebay_AdvancePage_Search(ChromeDriver driver) {
-    }*/
-
-    public Ebay_AdvancePage_Search_Elements(ChromeDriver driver) {
+    public Ebay_AdvancePage_Search_Elements(ChromeDriver driver) { // constructor
         this.driver = driver;
-        PageFactory.initElements(driver, this);
+        PageFactory.initElements(driver, this);//Initializing page factory elements
     }
 
 
