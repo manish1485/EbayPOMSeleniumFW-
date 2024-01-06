@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="3" parallel="classes" name="C:/Users/mailm/TestNGFramework(failed)">
+    <classes>
+      <class name="com.abc.tests.Ebay_Home_Page">
+        <methods>
+          <include name="empty_URL_Check"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.abc.tests.Ebay_Home_Page -->
+      <class name="com.abc.tests.Ebay_Advance_Page_Search">
+        <methods>
+          <include name="ebay_logo_link_navigates_home_page_test"/>
+          <include name="ebay_advance_search_keyword_test"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.abc.tests.Ebay_Advance_Page_Search -->
+    </classes>
+  </test> <!-- C:/Users/mailm/TestNGFramework(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

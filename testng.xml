@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="classes" thread-count="3">
+    <parameter name="browser" value="chrome"></parameter>
+    <test verbose="2" preserve-order="true" name="C:/Users/mailm/TestNGFramework">
+        <classes>
+            <class name="com.abc.tests.Ebay_Advance_Page_Search">
+                <methods>
+                    <include name="ebay_logo_link_navigates_home_page_test"/>
+                    <include name="ebay_advance_search_keyword_test"/>
+                </methods>
+            </class>
+            <class name="com.abc.tests.Ebay_Home_Page">
+                <methods>
+                    <include name="empty_URL_Check"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
